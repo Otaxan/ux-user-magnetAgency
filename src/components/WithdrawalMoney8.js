@@ -40,6 +40,7 @@ const WithdrawalMoney8 =()=>{
         { id: 1, type: 'USDT кошелёк', address: 'TH4anc9AMAn7kyVPr6nuXBRwf1akgzCgsZ' },
         { id: 2, type: 'USDT кошелёк', address: 'EMPty4anc9AMAn7kyVPr6nuXBRwf1akgzCgsZ' },
         { id: 3, type: 'USDT кошелёк', address: 'HAPanc9AMAn7kyVPr6nuXBRwf1akgzCgsZ' },
+ 
     ])
     const deleteWallet = (id) =>{
         setWallets(wallets.filter(wallet => wallet.id !== id));
@@ -93,14 +94,14 @@ const WithdrawalMoney8 =()=>{
                     contentLabel="Wallet Modal"
                     style={{
                         content: {
-                            top: '80%',
-                            left: '50%',
-                            right: 'auto',
+                            top: '65%',
+                            left: '0',
+                            right: '0',
                             bottom: 'auto',
-                            marginRight: '-50%',
-                            transform: 'translate(-50%, -50%)',
+                            // marginRight: '-50%',
+                            // transform: 'translate(-50%, -50%)',
                             // background: 'red',
-                            height: '45%',
+                            height: '35%',
                             width: '100%',
                             borderTopLeftRadius: '1.5rem',
                             borderTopRightRadius: '1.5rem',
@@ -143,12 +144,12 @@ const WithdrawalMoney8 =()=>{
                     contentLabel="Limits Modal"
                     style={{
                         content: {
-                            top: '85%',
-                            left: '50%',
-                            right: 'auto',
+                            top: '65%',
+                            left: '0',
+                            right: '0',
                             bottom: 'auto',
-                            marginRight: '-50%',
-                            transform: 'translate(-50%, -50%)',
+                            // marginRight: '-50%',
+                            // transform: 'translate(-50%, -50%)',
                             // background: 'red',
                             height: '35%',
                             width: '100%',
