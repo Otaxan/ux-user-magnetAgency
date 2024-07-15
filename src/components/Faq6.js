@@ -51,7 +51,7 @@ const Faq6=()=>{
                         <div key={index} style={{ marginBottom: '1.5rem', borderTop: '1px solid rgba(255, 255, 255, 0.418)', paddingTop: '1rem' }}>
                         <div style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '10px' }}>
                             <span className="questionans" style={{ fontWeight: '500' }}>{question}</span>
-                            <span onClick={() => handleToggle(index)} className="plusquest" style={{ fontSize: '1.5rem', border: '1px solid rgba(255, 255, 255, 0.418)', padding: '10px', width: '3rem', textAlign: 'center', borderRadius: '50%' }}>{openIndexes[index] ? '-' : '+'}</span>
+                            <span onClick={() => handleToggle(index)} className="plusquest" style={{ fontSize: '1.5rem', border: '1px solid rgba(255, 255, 255, 0.418)', paddingTop: '7px', width: '3rem', height: '3rem', textAlign: 'center', borderRadius: '50%' }}>{openIndexes[index] ? '-' : '+'}</span>
                         </div>
                         {openIndexes[index] && (
                             <div>
