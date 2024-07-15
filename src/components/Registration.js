@@ -23,7 +23,7 @@ const Registration =()=>{
                             </div>
 
                         </center>
-                        <center><Link><button className="buttonauth">ЗАРЕГИСТРИРОВАТЬСЯ</button></Link></center>
+                        <center><Link to="authorization/"><button className="buttonauth">ЗАРЕГИСТРИРОВАТЬСЯ</button></Link></center>
                     </div>
                     <div className="noaccount1">
                         <p>У вас уже есть аккаунт?</p>
