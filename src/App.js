@@ -7,7 +7,6 @@ import OffersAll1 from './components/OffersAll1';
 import OffersDescription2 from './components/OffersDescription2';
 import Statistics3 from './components/Statistics3';
 import MyProfile4 from './components/MyProfile4';
-import ChangePassword5 from './components/ChangePassword5';
 import Faq6 from './components/Faq6';
 import Balance7 from './components/Balance7';
 import WithdrawalMoney8 from './components/WithdrawalMoney8';
@@ -37,7 +36,6 @@ function App() {
         <Route path="/offer-detail" element={<OffersDescription2/>} />
         <Route path="/statistics" element={<Statistics3/>} />
         <Route path="/my_profile" element={<MyProfile4/>} />
-        <Route path="/change_password" element={<ChangePassword5/>} />
         <Route path="/faq" element={<Faq6/>} />
         <Route path="/balance" element={<Balance7/>} />
         <Route path="/withdrawal_money" element={<WithdrawalMoney8/>} />
